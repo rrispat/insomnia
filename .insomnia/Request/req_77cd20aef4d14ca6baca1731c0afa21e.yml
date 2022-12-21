@@ -1,0 +1,34 @@
+_id: req_77cd20aef4d14ca6baca1731c0afa21e
+type: Request
+parentId: wrk_7b5c2152da904b40a51aefa2f8bb4247
+modified: 1671614670725
+created: 1671613732295
+url: http://192.168.13.70:3000/dispatch/authenticate
+name: Auth User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phoneNumber": "+910000000000",
+    	"pin": "000000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2ae7d6f95cbf4bf4bd8ef6f0aa1d56b0
+  - id: pair_252b0eec45cb4c449f52c9602eb42354
+    name: token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTkzZjEyMDFhZDRlMDAxYmRmNzNiZSIsImlhdCI6MTY3MTYxNDIzOSwiZXhwIjoxNjcxNzAwNjM5fQ.CnjczMzpqKWaKgts41EeI0olVZcccHt1pjOxc4IR9bE
+    description: ""
+authentication: {}
+metaSortKey: -1671613732295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

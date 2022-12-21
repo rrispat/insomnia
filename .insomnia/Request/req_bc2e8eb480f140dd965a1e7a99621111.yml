@@ -1,0 +1,32 @@
+_id: req_bc2e8eb480f140dd965a1e7a99621111
+type: Request
+parentId: wrk_7b5c2152da904b40a51aefa2f8bb4247
+modified: 1671615205248
+created: 1671614263101
+url: http://192.168.13.70:3000/dispatch/vehicles/63a18b62e2c2566669f82536
+name: Update Vehicle
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"remarks": "remarks",
+    	"updateType": "edit"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTkzZjEyMDFhZDRlMDAxYmRmNzNiZSIsImlhdCI6MTY3MTYxNDIzOSwiZXhwIjoxNjcxNzAwNjM5fQ.CnjczMzpqKWaKgts41EeI0olVZcccHt1pjOxc4IR9bE
+  prefix: Bearer
+metaSortKey: -1671614263101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

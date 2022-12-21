@@ -1,0 +1,30 @@
+_id: req_6f5692506218423aa14237b84b28ea88
+type: Request
+parentId: wrk_7b5c2152da904b40a51aefa2f8bb4247
+modified: 1671615119643
+created: 1671615089375
+url: http://192.168.13.70:3000/dispatch/users/62593f1201ad4e001bdf73be
+name: Get User
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2ae7d6f95cbf4bf4bd8ef6f0aa1d56b0
+  - id: pair_252b0eec45cb4c449f52c9602eb42354
+    name: token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTkzZjEyMDFhZDRlMDAxYmRmNzNiZSIsImlhdCI6MTY3MTYxNDIzOSwiZXhwIjoxNjcxNzAwNjM5fQ.CnjczMzpqKWaKgts41EeI0olVZcccHt1pjOxc4IR9bE
+    description: ""
+authentication: {}
+metaSortKey: -1671613732245
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

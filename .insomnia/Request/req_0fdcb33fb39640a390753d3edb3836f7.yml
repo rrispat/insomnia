@@ -1,0 +1,24 @@
+_id: req_0fdcb33fb39640a390753d3edb3836f7
+type: Request
+parentId: wrk_7b5c2152da904b40a51aefa2f8bb4247
+modified: 1671614532076
+created: 1671614503854
+url: http://192.168.13.70:3000/dispatch/vehicles
+name: Get Vehicles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTkzZjEyMDFhZDRlMDAxYmRmNzNiZSIsImlhdCI6MTY3MTYxNDIzOSwiZXhwIjoxNjcxNzAwNjM5fQ.CnjczMzpqKWaKgts41EeI0olVZcccHt1pjOxc4IR9bE
+  prefix: Bearer
+metaSortKey: -1671613997698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
